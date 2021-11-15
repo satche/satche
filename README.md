@@ -7,6 +7,9 @@ I'm a web developer & designer currently studying to get my Bachelor's degree in
 [![HTML5](https://img.shields.io/badge/HTML5-f06529?style=flat&logo=html5&logoColor=white)](https://github.com/satche?tab=repositories&language=html)
 [![CSS3](https://img.shields.io/badge/CSS3-2965f1?style=flat&logo=css3&logoColor=white)](https://github.com/satche?tab=repositories&language=css)
 [![Javascript](https://img.shields.io/badge/JS-bf9414?style=flat&logo=javascript&logoColor=white)](https://github.com/satche?tab=repositories&language=javascript)
+
+**Currently learning**
+
 [![Vue.js](https://img.shields.io/badge/Vue.js-3fb27f?style=flat&logo=vue.js&logoColor=white)](https://github.com/satche?tab=repositories&language=vue)
 [![Laravel](https://img.shields.io/badge/Laravel-ef3b2d?style=flat&logo=laravel&logoColor=white)](https://github.com/satche?tab=repositories&language=blade)
 
