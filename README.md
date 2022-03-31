@@ -14,8 +14,11 @@ I'm currently learning<br>
 [![Vue.js](https://img.shields.io/badge/Vue.js-3fb27f?style=flat&logo=vue.js&logoColor=white)](https://github.com/satche?tab=repositories&language=vue)
 [![Angular](https://img.shields.io/badge/Angular-de0731?style=flat&logo=Angular&logoColor=white)](https://github.com/satche?tab=repositories&q=angular)
 [![Ionic](https://img.shields.io/badge/Ionic-3581ff?style=flat&logo=Ionic&logoColor=white)](https://github.com/satche?tab=repositories&q=ionic)
-[![Laravel](https://img.shields.io/badge/Laravel-ef3b2d?style=flat&logo=laravel&logoColor=white)](https://github.com/satche?tab=repositories&language=blade)
 [![React](https://img.shields.io/badge/React-5597aa?style=flat&logo=react&logoColor=white)](https://github.com/satche?tab=repositories&language=react)
+
+<!-- A list of techno I play with, irrelevant to show… for now !
+[![Laravel](https://img.shields.io/badge/Laravel-ef3b2d?style=flat&logo=laravel&logoColor=white)](https://github.com/satche?tab=repositories&language=blade)
+-->
 
 I write a notebook about code and design. Feel free to contribute !<br>
 [![Notion](https://img.shields.io/badge/Notion-000?style=flat&logo=notion&logoColor=white)](https://satche.notion.site)
