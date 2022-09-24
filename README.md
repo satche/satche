@@ -1,6 +1,6 @@
 # Hello, world !
 
-I'm a web developer & designer currently studying to get my Bachelor's degree in Media Engineering.
+I'm a web developer & designer currently studying to get my Master's degree in Computer Science.
 
 ## Stuff I do
 
