@@ -21,7 +21,7 @@ I'm currently learning<br>
 -->
 
 I write a notebook about code and design. Feel free to contribute !<br>
-[![Notion](https://img.shields.io/badge/Notion-000?style=flat&logo=notion&logoColor=white)](https://satche.notion.site)
+[![Notion](https://img.shields.io/badge/Notion-000?style=flat&logo=notion&logoColor=white)](https://code-and-design.notion.site)
 
 ## Contact
 
