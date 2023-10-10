@@ -1,4 +1,4 @@
-# Hello, world !
+**Hello, world !**
 
 I'm a web developer & designer currently studying to get my Master's degree in Computer Science.
 
