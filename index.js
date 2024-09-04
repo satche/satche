@@ -7,10 +7,10 @@ import { select } from "@inquirer/prompts";
  * Links settings
  ********************************/
 const links = {
-  website: "thomas-robert.com",
-  mail: "info@thomas-robert.com",
-  github: "github.com/satche",
-  linkedin: "linkedin.com/in/thomas-robert-dev",
+  website: "https://thomas-robert.com",
+  github: "https://github.com/satche",
+  linkedin: "https://linkedin.com/in/thomas-robert-dev",
+  email: "info@thomas-robert.com"
 };
 
 /********************************
@@ -50,19 +50,19 @@ async function main() {
     choices: [
       {
         name: `Github \t${chalk.blue.underline(links.github)}`,
-        value: `https://${links.github}`,
+        value: `${links.github}`,
       },
       {
         name: `Linkedin \t${chalk.blue.underline(links.linkedin)}`,
-        value: `https://${links.linkedin}`,
+        value: `${links.linkedin}`,
       },
       {
         name: `Website \t${chalk.blue.underline(links.website)}`,
-        value: `https://${links.website}`,
+        value: `${links.website}`,
       },
       {
-        name: `Email \t${chalk.blue.underline(links.mail)}`,
-        value: `mailto:${links.mail}`,
+        name: `Email \t${chalk.blue.underline(links.email)}`,
+        value: `mailto:${links.email}`,
       },
       {
         name: chalk.red("Exit"),

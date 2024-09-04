@@ -1,10 +1,12 @@
 {
-  "name": "@satche/info",
+  "name": "satche",
   "version": "0.1.0",
-  "description": "Hi, I'm Thomas, a Swiss Army knife of new technologies sharpened by creativity",
+  "description": "A Swiss Army knife made of ink and pixel",
   "main": "index.js",
+  "bin": {
+    "satche": "index.js"
+  },
   "type": "module",
-  "bin": "card.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
