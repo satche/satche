@@ -1,17 +1,27 @@
 {
-  "name": "satche",
-  "version": "0.1.2",
+  "name": "@satche/satche",
+  "version": "0.1.3",
   "description": "A Swiss Army knife made of ink and pixel",
   "main": "index.js",
   "bin": {
-    "satche": "index.js"
+    "satche": "index.js",
+    "thomas-robert": "index.js"
   },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Satche",
+  "keywords": [ "profile", "developer", "front-end"],
+  "homepage": "https://github.com/satche",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satche/satche"
+  },
+  "author": {
+    "name": "Thomas Robert",
+    "email": "info@thomas-robert.com",
+    "url": "https://thomas-robert.com"
+  },
   "license": "MIT",
   "dependencies": {
     "@inquirer/prompts": "^5.3.8",
