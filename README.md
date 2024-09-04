@@ -1,6 +1,7 @@
 # Satche
 
-**Thomas Robert**, aka *Satche*, is a multitool cross-platform <abbr title="Developer as a Service">DaaS</abbr>, a Swiss Army knife made of ink and pixel.
+**Thomas Robert**, aka *Satche*, is a multitool cross-platform DaaS (Developer as a Service).<br>
+A Swiss Army knife made of ink and pixel.
 
 ## Usage
 
@@ -10,7 +11,7 @@ npx satche
 
 ## Roadmap
 
-- Validate `software-engineer` <abbr title="Master of Science">MSc</abbr> <abbr title="Computer Science">CS</abbr> certificate
+- Validate `software-engineer` <abbr title="Master of Science">MSc</abbr> <abbr title="Computer Science">CS</abbr> certificate @[HES-SO](https://www.hes-so.ch)
 - Apply <abbr title="Depth-First Search">DFS</abbr> algorithm on `find-job` routine
 
 Past changes are available in the [CHANGELOG](CHANGELOG.md).
