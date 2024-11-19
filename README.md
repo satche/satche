@@ -1,7 +1,8 @@
 # Satche
 
 **Thomas Robert**, aka *Satche*, is a multitool cross-platform DaaS (Developer as a Service).<br>
-A Swiss Army knife made of ink and pixel.
+A Swiss Army knife made of ink and pixels, sharpened by creativity.
+A jack of all trades, and a master of n̶o̶n̶e̶ some!
 
 ## Usage
 
