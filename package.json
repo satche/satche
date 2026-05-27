@@ -1,5 +1,5 @@
 {
-  "name": "@satche/satche",
+  "name": "satche",
   "version": "0.1.4",
   "description": "A Swiss Army knife made of ink and pixel",
   "main": "index.js",
