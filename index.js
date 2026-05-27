@@ -5,27 +5,35 @@ import chalk from "chalk";
 import open from "open";
 import { select } from "@inquirer/prompts";
 
-/********************************
- * Links settings
- ********************************/
+// Content settings
 const links = {
   website: "https://thomas-robert.com",
   github: "https://github.com/satche",
   linkedin: "https://linkedin.com/in/thomas-robert-dev",
-  email: "info@thomas-robert.com"
+  email: "info@thomas-robert.com",
 };
 
-/********************************
- * Box settings
- ********************************/
-const boxContent = `
+const welcomeContent = `
 I'm ${chalk.green("Thomas Robert")}, ${chalk.gray(
-  "aka Satche"
-)}, a Swiss Army knife of new technologies sharpened by creativity.
+  "aka Satche",
+)}, a Swiss Army knife made of ink and pixels. A jack of all trades, and a master of ${chalk.strikethrough("none")} some!`;
 
-I'm a Media Engineer currently studying to get my Master's degree in Computer Science.
+const aboutContent = `
+${chalk.bold.blueBright("Current Position:")}
+Traveling around the world
+
+${chalk.bold.blueBright("Experience")}
+${chalk.blueBright("2022‑2025")} Innovation specialist, Nestlé
+${chalk.blueBright("2023‑2025")} Teacher, CPNE
+${chalk.blueBright("2017‑2019")} Front-end developer, 8bitstudio
+
+${chalk.bold.blueBright("Education")}
+${chalk.blueBright("2022‑2025")} MSc Computer Science at HES-SO
+${chalk.blueBright("2023‑2025")} BSc Media Engineering at HEIG-VD
+${chalk.blueBright("2017‑2019")} Interactive Media Designer at ERACOM
 `;
 
+// Box settings
 const boxSettings = {
   title: "Hello, world!",
   titleAlignment: "center",
@@ -36,20 +44,33 @@ const boxSettings = {
   borderColor: "green",
 };
 
-const box = boxen(boxContent, boxSettings);
-console.log(box);
+const welcomeBox = boxen(welcomeContent, boxSettings);
+const aboutBox = boxen(aboutContent, {
+  ...boxSettings,
+  title: "About me",
+  borderColor: "blueBright",
+});
 
-/********************************
- * Main function
- ********************************/
+console.log(welcomeBox);
+
 async function main() {
+  // List choices
   const choice = await select({
-    message: `${chalk.green("Want to know more? Contact me!")}`,
-    theme: {
-      prefix: " ",
-      helpMode: "never",
-    },
+    message: `${chalk.gray("Select an option:")}`,
+    theme: { prefix: " ", helpMode: "never" },
     choices: [
+      {
+        name: `About me \t${chalk.blueBright("Academic and profesional background")}`,
+        value: "about_me",
+      },
+      {
+        name: `Email \t${chalk.blue.underline(links.email)}`,
+        value: `mailto:${links.email}`,
+      },
+      {
+        name: `Website \t${chalk.blue.underline(links.website)}`,
+        value: `${links.website}`,
+      },
       {
         name: `Github \t${chalk.blue.underline(links.github)}`,
         value: `${links.github}`,
@@ -59,26 +80,22 @@ async function main() {
         value: `${links.linkedin}`,
       },
       {
-        name: `Website \t${chalk.blue.underline(links.website)}`,
-        value: `${links.website}`,
-      },
-      {
-        name: `Email \t${chalk.blue.underline(links.email)}`,
-        value: `mailto:${links.email}`,
-      },
-      {
         name: chalk.red("Exit"),
         value: chalk.gray("  Thanks for visiting! Bye!"),
       },
     ],
   });
 
+  // Handle user inputs
   if (choice.startsWith("http") | choice.startsWith("mailto")) {
     open(choice);
     main();
+  } else if (choice === "about_me") {
+    console.log(aboutBox);
+    main();
+  } else {
+    console.log(choice);
   }
-
-  console.log(choice);
 }
 
 main();
